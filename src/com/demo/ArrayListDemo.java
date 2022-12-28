@@ -5,10 +5,11 @@ import java.util.ArrayList;
 public class ArrayListDemo {
 public static void main(String[] args) {
 	
-	ArrayList<Integer> list=new ArrayList<Integer>();
-	list.add(10);
-	list.add(20);
+	ArrayList<String> list=new ArrayList<String>();
+	list.add("Omkar");
+	list.add("Avaneesh");
+
+	list.stream().forEach(x->System.out.println(x));
 	
-	System.out.println(list);
 }
 }
